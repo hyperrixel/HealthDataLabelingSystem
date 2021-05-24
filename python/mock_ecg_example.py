@@ -9,7 +9,7 @@ module: mock ECG example
 # Imports from standard library
 from json import dumps
 from random import choice, uniform
-from time import sleep, time
+from time import time
 
 # Project level imports
 from enum_label_types import LabelTypes
@@ -152,7 +152,6 @@ my_collector = MyCollector()
 print('\n\n\n#########################')
 print('# Collecting test data. #')
 print('#########################\n\n\n')
-sleep(0.1)
 
 for i in range(TEST_DURATION):
     for j in range(TEST_PACKAGES_PER_UNIT):
@@ -162,13 +161,9 @@ for i in range(TEST_DURATION):
             my_collector.collect(DEVICE_ID, *package[k], _timestamp, j)
         if i % 25 == 24:
             print('Sampling at test measure {}:'.format(i + 1))
-            sleep(0.05)
             print('--- Data #1: {}'.format(my_collector.get_by_id(-3)))
-            sleep(0.05)
             print('--- Data #2: {}'.format(my_collector.get_by_id(-2)))
-            sleep(0.05)
             print('--- Data #3: {}'.format(my_collector.get_by_id(-1)))
-            sleep(0.1)
 
 
 # Labeling
@@ -178,7 +173,6 @@ for i in range(TEST_DURATION):
 print('\n\n\n#######################')
 print('# Labeling test data. #')
 print('#######################\n\n\n')
-sleep(0.1)
 
 
 # This whole stuff in that for loop could be made in the collection phase and
@@ -285,11 +279,9 @@ print('Labeling finished with {} fails.'.format(fails))
 print('\n\n\n###############################')
 print('# Sampling labeled datapoints #')
 print('###############################\n\n\n')
-sleep(0.1)
 
 
 for i in range(TEST_SAMPLE_LABELED):
     print('Sample #{}'.format(i + 1))
     datapoint = choice(labaled_datapoints)
     print(datapoint)
-    sleep(0.1)
