@@ -2,29 +2,29 @@
 
 ## Project video
 
-[![HealthData Labeling System](https://github.com/hyperrixel/HealthDataLabelingSystem/blob/main/asset/logo.png "HealthData Labeling System")](https://youtu.be/BnRRAaQdzy8)
+[![HealthData Labeling System](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/logo.png "HealthData Labeling System")](https://youtu.be/BnRRAaQdzy8)
 
 ## Info graphics
 
 ### Lifecycle of the data
 
-![Lifecycle of the data](https://github.com/hyperrixel/HealthDataLabelingSystem/blob/main/asset/data_life_cycle.png "Lifecycle of the data")
+![Lifecycle of the data](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/data_life_cycle.png "Lifecycle of the data")
 
 ### Impact of the project
 
-![Impact of the project](https://github.com/hyperrixel/HealthDataLabelingSystem/blob/main/asset/data_route.png "Impact of the project")
+![Impact of the project](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/data_route.png "Impact of the project")
 
 ### Development work
 
-![Development work](https://github.com/hyperrixel/HealthDataLabelingSystem/blob/main/asset/development_workflow.png "Development work")
+![Development work](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/development_workflow.png "Development work")
 
 ### Legal workflow
 
-![Legal workflow](https://github.com/hyperrixel/HealthDataLabelingSystem/blob/main/asset/legal.png "Legal workflow")
+![Legal workflow](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/legal.png "Legal workflow")
 
 ### Our vision
 
-![Our vision](https://github.com/hyperrixel/HealthDataLabelingSystem/blob/main/asset/vision_data_tags.png "Our vision")
+![Our vision](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/vision_data_tags.png "Our vision")
 
 ## Project' description
 
@@ -82,7 +82,7 @@ We are committed to healthcare and we like hackathons. Since we are data scienti
 
 We made a video presentation and some code to demonstrate that we are committed to build up our idea. On the github repository there are python codes with a mock example file and C++ header files.
 
-- 🧮 GitHub: https://github.com/hyperrixel/HealthDataLabelingSystem
+- 🧮 GitHub: https://github.com/hyperrixel/HealthDataLabellingSystem
 
 - 🎥 YouTube: https://youtu.be/BnRRAaQdzy8
 
