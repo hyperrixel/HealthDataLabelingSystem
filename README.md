@@ -2,7 +2,7 @@
 
 ## Project video
 
-[![HealthData Labeling System](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/logo.png "HealthData Labeling System")](https://youtu.be/BnRRAaQdzy8)
+[![HealthData Labeling System](https://github.com/hyperrixel/HealthDataLabellingSystem/blob/main/asset/logo.png "HealthData Labeling System")](https://youtu.be/oI1Yr0RE64k)
 
 ## Info graphics
 
