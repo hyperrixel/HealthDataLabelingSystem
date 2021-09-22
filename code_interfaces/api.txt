@@ -1,0 +1,32 @@
+# HDLSExtractor
+#   initialize new HDLSExtractor device
+https://hdls.hyperrixle.com/api/?instance=HDLSExtractor&method=initialize&useCaseID=MY_USE_CASE_ID
+
+#   delete data
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=deleteData&conditions=MY_CONDITIONS
+
+#   get data from source with default store parameter
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=get&sourceID=MY_SOURCE_ID&dataProfileID=MY_DATA_PROFILE_ID
+
+#   get data from source with changed store parameter
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=get&sourceID=MY_SOURCE_ID&dataProfileID=MY_DATA_PROFILE_ID&store=MY_BOOLEAN
+
+#   check use case match
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=match&conditions=ACTUAL_USE_CASE_ID
+
+
+# HDLSIntegrator:
+#   initialize new HDLSIntegrator instance
+https://hdls.hyperrixle.com/api/?instance=HDLSIntegrator&method=initialize&useCaseID=MY_USE_CASE_ID
+
+#   delete data
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=deleteData&conditions=MY_CONDITIONS
+
+#   check use case match
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=match&conditions=ACTUAL_USE_CASE_ID
+
+#   send data to source with default store parameter
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=send&destinationID=MY_DESTINATION_ID&outputDataProfileID=MY_OUTPUT_DATA_PROFILE_ID&data=MY_HJDLS_DATA_OBJECT
+
+#   send data to source with changed store parameter
+https://hdls.hyperrixle.com/api/?instanceID=MY_INSTANCE_ID&method=send&destinationID=MY_DESTINATION_ID&outputDataProfileID=MY_OUTPUT_DATA_PROFILE_ID&data=MY_HJDLS_DATA_OBJECT&store=MY_BOOLEAN
